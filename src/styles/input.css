@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for microinteractions */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.focus-visible {
+  outline: 2px solid #0052CC;
+  outline-offset: 2px;
+}
+
+button:hover:not(:disabled) {
+  transition: background-color 0.3s ease;
+}
