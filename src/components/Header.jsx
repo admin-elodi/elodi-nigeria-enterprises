@@ -13,7 +13,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-white font-inter shadow-md border-b-2 border-[#003087]">
       {/* Desktop: Company name centered above nav */}
       <div className="hidden md:flex justify-center bg-[#E5E7EB] py-2 border-b border-[#003087]">
-        <h1 className="text-lg md:text-xl font-bold text-[#003087] tracking-wide select-none">
+        <h1 className="text-lg md:text-3xl font-bold text-[#003087] tracking-wide select-none">
           Elodi Nigeria Enterprises
         </h1>
       </div>
@@ -76,8 +76,9 @@ const Header = () => {
           {[
             { to: '/', label: 'Home' },
             { to: '/website-development', label: 'Website Development' },
-            { to: '/ict-instruction', label: 'ICT Instruction' },
-            { to: '/proposal-writing', label: 'Proposal Writing' },
+            { to: '/ict-instruction', label: 'Coding Is Fun' },
+            { to: '/proposals', label: 'Proposals' },
+            { to: '/product-reviews', label: 'Product Reviews' },
             { to: '/contact', label: 'Contact' },
           ].map(({ to, label }) => (
             <li key={to}>
