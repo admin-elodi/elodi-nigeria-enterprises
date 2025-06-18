@@ -9,7 +9,7 @@ const Hero = () => {
   const contentBlocks = [
     {
       title: 'Web Development',
-      description: 'Build perfect websites or web apps for your business with our expert team.',
+      description: 'Fill form that captures essence of website your business really needs so that we can act on it',
       buttonText: 'Fill Form',
       buttonLink: '/website-development',
       image: webDevIcon,

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         {/* Baroque-inspired Title */}
         <h3
-          className="text-2xl font-serif font-bold mb-2 mt-8 tracking-wide"
+          className="text-2xl font-serif font-bold mb-2 mt-8 tracking-wide text-center w-full truncate max-w-xs mx-auto"
           style={{
             letterSpacing: "0.08em",
             textShadow: "0 2px 8px rgba(244,180,0,0.08)",
@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Cards Section */}
         <div className="flex flex-col md:flex-row gap-6 w-full justify-center items-stretch mb-8">
           {/* Quick Links */}
-          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200">
+          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200 h-full min-h-[180px]">
             <h4 className="text-lg font-serif font-bold mb-3 text-yellow-200 tracking-wide">
               Quick Links
             </h4>
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* Contact Us */}
-          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200">
+          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200 h-full min-h-[180px]">
             <h4 className="text-lg font-serif font-bold mb-3 text-yellow-200 tracking-wide">
               Contact Us
             </h4>
@@ -74,7 +74,7 @@ const Footer = () => {
             <p className="text-sm">+234 813 657 3235</p>
           </div>
           {/* Connect */}
-          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200">
+          <div className="flex-1 bg-white/5 backdrop-blur border border-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center transition-transform hover:scale-105 duration-200 h-full min-h-[180px]">
             <h4 className="text-lg font-serif font-bold mb-3 text-yellow-200 tracking-wide">
               Connect
             </h4>
