@@ -3,7 +3,7 @@ import webDevIcon from '@/assets/icons/web.webp';
 import ictIcon from '@/assets/icons/code.jpg';
 import proposalIcon from '@/assets/icons/business.webp';
 import reviewIcon from '@/assets/icons/phone.webp';
-import heroBg from '@/assets/images/banner.jpg';
+
 
 const Hero = () => {
   const contentBlocks = [
@@ -47,10 +47,9 @@ const Hero = () => {
       className="bg-gray-300 pb-12 md:pb-16 lg:pb-20 font-inter"
       aria-labelledby="vision-heading"
     >
-      {/* Hero Banner */}
       <div
-        className="relative bg-cover bg-center h-96 flex items-center justify-center bg-yellow-100"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        className="relative bg-cover bg-center h-96 flex items-center justify-center"
+        style={{ backgroundImage: `url()` }}
       >
         
       </div>

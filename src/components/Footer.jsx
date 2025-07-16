@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         {/* Baroque-inspired Title */}
         <h3
-          className="text-2xl font-serif font-bold mb-2 mt-8 tracking-wide text-center w-full truncate max-w-xs mx-auto"
+          className="text-sm font-serif font-bold mb-2 mt-8 tracking-wide text-center w-full truncate max-w-xs mx-auto"
           style={{
             letterSpacing: "0.08em",
             textShadow: "0 2px 8px rgba(244,180,0,0.08)",
